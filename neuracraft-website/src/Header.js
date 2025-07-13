@@ -4,15 +4,15 @@ import { Link } from "react-router-dom";
 
 function Header({ toggleSidebar, isSidebarOpen }) {
   return (
-    <header className="bg-blue-950 text-white flex items-center justify-between px-2 sm:px-4 py-2 border border-blue-300 rounded-lg shadow-md relative">
+    <header className="bg-gray-950 text-white flex items-center justify-between px-2 sm:px-4 py-2 border border-gray-300 rounded-lg shadow-md relative">
       <div className="flex items-center">
-        <FaRocket className="text-xl sm:text-2xl mr-1 sm:mr-2 text-blue-200" />
-        <span className="text-sm sm:text-lg font-bold text-blue-100">
-          Admin Portal
+        <FaRocket className="text-xl sm:text-2xl mr-1 sm:mr-2 text-gray-200" />
+        <span className="text-sm sm:text-lg font-bold text-gray-100">
+          NeuraCraft
         </span>
         <button
           onClick={toggleSidebar}
-          className="ml-2 text-blue-200 hover:text-blue-50 focus:outline-none"
+          className="ml-2 text-gray-200 hover:text-gray-50 focus:outline-none"
           aria-label="Toggle Navigation"
         >
           <FaBars className="text-xl" />
@@ -47,19 +47,25 @@ function Header({ toggleSidebar, isSidebarOpen }) {
       <nav className="flex space-x-2 sm:space-x-4">
         <Link
           to="/"
-          className="hover:text-blue-200 transition-colors text-sm sm:text-base"
+          className="hover:text-gray-200 transition-colors text-sm sm:text-base"
         >
           Home
         </Link>
         <a
           href="#"
-          className="hover:text-blue-200 transition-colors text-sm sm:text-base"
+          className="hover:text-gray-200 transition-colors text-sm sm:text-base"
         >
           Options
         </a>
         <a
           href="#"
-          className="hover:text-blue-200 transition-colors text-sm sm:text-base"
+          className="hover:text-gray-200 transition-colors text-sm sm:text-base"
+        >
+          About
+        </a>
+        <a
+          href="#"
+          className="hover:text-gray-200 transition-colors text-sm sm:text-base"
         >
           Help
         </a>

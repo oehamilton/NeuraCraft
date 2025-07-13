@@ -6,14 +6,13 @@ const slideImage = "/logo512.png"; // Logo image path
 
 function DefaultPage() {
   return (
-    <div className="bg-blue-200 p-6 text-gray-800 shadow-inner">
-      <h2 className="text-2xl font-bold mb-4 text-blue-900">
-        Welcome to you Admin Portal
+    <div className="bg-gray-900 p-6 text-gray-100 shadow-inner">
+      <h2 className="text-2xl font-bold mb-4 text-gray-100">
+        Welcome to NeuraCraft!
       </h2>
       <p className="text-lg">
         This is the default page. Use the{" "}
-        <FaBars className="inline text-xl align-middle" /> menu to navigate to
-        the administrative features.
+        <FaBars className="inline text-xl align-middle" /> menu to navigate.
       </p>
       <div className="relative max-w-full max-h-full">
         <img
